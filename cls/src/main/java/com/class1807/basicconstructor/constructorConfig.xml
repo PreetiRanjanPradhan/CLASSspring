@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- Define your beans here -->
+	<bean class="com.class1807.basicconstructor.Faculty" name="Faculty">
+	<constructor-arg value="101" />
+	<constructor-arg value="Satya" />
+	<constructor-arg value="ST" />
+	</bean>
+	<bean class="com.class1807.basicconstructor.Faculty" name="Faculty1">
+	<constructor-arg value="102" />
+	<constructor-arg value="Ankit" />
+	<constructor-arg value="ST" />
+	</bean>
+	<!-- define the dependency -->
+
+
+</beans>
+
+
+
+
+

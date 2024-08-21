@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:annotation-config></context:annotation-config>
+	<!-- Define your beans here -->
+	<bean class="com.class2507.reference.Address" name="address1">
+		<property name="City" value="BBSR"></property>
+		<property name="Dist" value="Khordha"></property>
+		<property name="State" value="Odisha"></property>
+		<property name="Pin" value="751018"></property>
+	</bean>
+
+	<bean class="com.class2507.reference.Product" name="product1">
+		
+	</bean>
+	<!-- define the dependency -->
+
+
+</beans>
+
+
+
+
+
